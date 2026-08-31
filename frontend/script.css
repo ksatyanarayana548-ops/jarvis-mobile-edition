@@ -6,7 +6,7 @@ send.onclick = sendMessage;
 
 input.addEventListener('keydown', (event) => {
     if (event.key === 'Enter') {
-        sendMessage();
+        send Message();
     }
 });
 
@@ -35,4 +35,4 @@ function add(text, who) {
 
     chat.appendChild(d);
     chat.scrollTop = chat.scrollHeight;
-} 
+}
